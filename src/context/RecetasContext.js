@@ -24,6 +24,7 @@ const RecetasProvider = (props) => {
           guardarRecetas(resultado.data.drinks);
         };
         obtenerRecetas();
+        console.log(nombre, categoria);
       } else {
         Swal.fire({
           icon: "error",

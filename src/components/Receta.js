@@ -76,7 +76,7 @@ const Receta = ({ receta }) => {
               handleOpen();
             }}
           >
-            Ver receta
+            See recipe
           </button>
           <Modal
             open={open}
@@ -95,7 +95,7 @@ const Receta = ({ receta }) => {
                   alt=""
                   className="img-fluid my-4"
                 />
-                <h3>Ingredientes y cantidades</h3>
+                <h3>Ingredients and portions</h3>
                 <ul>{mostrarIngredientes(informacion)}</ul>
               </div>
             </div>
